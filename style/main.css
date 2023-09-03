@@ -1,0 +1,430 @@
+/* Common Styling */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+body {
+    background-color: #eeeeff;
+}
+
+main {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.top-link {
+    background-color: #58d3dc;
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 40px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.back-link {
+         background-color: #58d3dc;
+         text-align: center;
+         position: fixed;
+         right: 0px;
+         bottom: 40px;
+         width: 50px;
+         border-radius: 5px;
+}
+
+.top-link a:hover {
+    color:#eeeeff;
+}
+
+/* Header Styling */
+
+#header {
+    background-color: #58d3dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    padding: 5px 10px;
+    z-index: 100;
+    border-bottom: 1px solid #000000;
+}
+
+#header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#header h1 {
+    font-size: 25px;
+}
+
+#header h1 a:hover {
+    color: #eeeeff;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+/* Navbar Styling */
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar li {
+    font-size: 15px;
+    padding: 8px 0px;
+    width: 100px;
+}
+
+.menu {
+    font-size: 17px;
+    width: 65px; 
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-links li:hover {
+    background-color: #eeeeff;
+    border-radius: 5px;
+}
+
+/* Hamburger Menu */
+
+.chevron {
+    display: none;
+    background-color: #000000;
+    width: 30px;
+    height: 8px;
+    margin: 2px;
+}
+
+.hamburger.active .chevron:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger.active .chevron:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .chevron:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+/* Responsive Sizing */
+
+@media screen and (max-width:768px) {
+    .nav-links {
+         background-color: #58d3dc;
+         position: fixed;
+         top: 40px;
+         right: -100%;
+         width: 150px;
+         height: 250px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         transition: 2s ease-in-out
+    }
+
+    .chevron {
+         display: block;
+         cursor: pointer;
+    }
+
+    .nav-links.active {
+         right: 0%;
+         transition: .5s ease-in-out;
+    }
+}
+
+/* Main Styling Starts Here */
+
+.page-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.topics {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.topics:hover {
+    background-color: #58d3dc;
+    transition: 3s;
+}
+
+.container {
+    margin: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.gap {
+    height: 25px;
+}
+
+/* Sub Menu Style Starts Here */
+
+.menu-head {
+    background-color: #58d3dc;
+    text-align: center;
+}
+
+.menu-head a:hover {
+    color: #eeeeff;
+}
+
+.sub-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-menu ul {
+    background-color: #58d3dc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .sub-menu ul {
+         flex-direction: column;
+    }
+}
+
+.sub-menu li {
+    padding: 10px;
+    width: 200px;
+}
+
+.sub-menu li:hover {
+    background-color: #eeeeff;
+    border-radius: 5px;
+}
+
+/* Column Span Layout Starts Here */
+
+.col-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.columns {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+@media screen and (max-width:768px) {
+    .columns {
+         width: 95%;
+    }
+}
+
+/* Companies Styling Starts Here */
+
+.company-layout {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.company-menu {
+    display: flex;
+}
+
+.company-menu ul {
+    background-color: #58d3dc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.company-menu li {
+    padding: 10px;
+    width: 300px;
+}
+
+.company-menu li:hover {
+    background-color: #eeeeff;
+    border-radius: 5px;
+}
+
+.company-profiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-sections {
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 45%;
+}
+
+.science-menu {
+    display: flex;
+    height: 700px;
+}
+
+.science-menu ul {
+    background-color: #58d3dc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.science-menu li {
+    padding: 10px;
+    width: 300px;
+}
+
+.science-menu li:hover {
+    background-color: #eeeeff;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .company-sections {
+         width: 95%;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.buttons a {
+    background-color: #58d3dc;
+    text-align: center;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.buttons a:hover {
+    color: #eeeeff;
+}
+
+/* Portfolio Styling Starts Here */
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+table caption {
+    background-color: #58d3dc;
+    border: solid 1px #000000;
+    font-weight: 800;
+}
+
+table tr:hover {
+    background-color: #58d3dc;
+    font-weight: 700;
+}
+
+.theme {
+    border: solid 1px #000000;
+    margin: 10px 25px;
+    width: 45%;
+}
+
+.totals {
+    background-color: #58d3dc;
+}
+
+@media screen and (max-width: 768px) {
+    .theme {
+         width: 95%;
+    }
+}
+
+.updated {
+    text-align: right;
+    margin-right: 50px;
+}
+
+/* Footer Styling Starts Here */
+
+#footer {
+    background-color: #58d3dc;
+    border-top: 1px solid #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+}
+
+.footer-icons {
+    width: 30px;
+    border-radius: 15px;
+}
+
+#footer a {
+    color: #000000;
+}
+
+
