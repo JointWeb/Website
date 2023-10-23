@@ -37,7 +37,7 @@
 #navbar li {
     font-size: 20px;
     padding: 8px 0px;
-    width: 100px;
+    width: 150px;
 }
 
 #navbar a {
@@ -69,7 +69,7 @@
 
 .chevron {
     display: none;
-    background-color: #fffff5;
+    background-color: #60442f;
     width: 30px;
     height: 8px;
     margin: 2px;
@@ -107,8 +107,8 @@
          position: fixed;
          top: 200px;
          right: -100%;
-         width: 150px;
-         height: 250px;
+         width: 250px;
+         height: 350px;
          display: flex;
          flex-direction: row;
          justify-content: center;
@@ -132,4 +132,36 @@ main {
     padding-top: 100px;
 }
 
+/* Footer Formatting */
 
+#footer {
+    background-color: #dca677cc;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#footer img {
+    width: 35px;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #60442f;
+}
+
+.footernav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
