@@ -125,7 +125,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 25px;
 }
 
@@ -167,14 +167,13 @@
          background-color: #60442f;
          position: fixed;
          top: 200px;
-         right: -100%;
-         width: 250px;
-         height: 350px;
+         top: -100%;
+         width: 100%;
+         height: 55%;
          display: flex;
          flex-direction: row;
          justify-content: center;
          align-items: center;
-         transition: 2s ease-in-out
     }
 
     .chevron {
@@ -183,8 +182,7 @@
     }
 
     .nav-links.active {
-         right: 0%;
-         transition: .5s ease-in-out;
+         top: 200px;
     }
 }
 
