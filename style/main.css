@@ -134,7 +134,7 @@ body {
 }
 
 .news {
-    width: 300px;
+    width: 80%;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
@@ -155,7 +155,7 @@ body {
 }
 
 .worship {
-    width: 300px;
+    width: 80%;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
