@@ -17,7 +17,6 @@ body {
     display: inline-block;
     width: 100%;
     text-align: center;
-    color: #60442f;
     padding-top: 10px;
 }
 
@@ -28,7 +27,7 @@ body {
 
 /* Navbar Formatting*/
 #navbar {
-    background-color: #60442f;
+    background-color: #4a352f;
     color: #fffff5;
 }
 
@@ -75,7 +74,7 @@ body {
 
 .chevron {
     display: none;
-    background-color: #60442f;
+    background-color: #4a352f;
     width: 30px;
     height: 8px;
     margin: 2px;
@@ -113,7 +112,7 @@ body {
 
 #footer a {
     text-decoration: none;
-    color: #60442f;
+    color: #000000;
 }
 
 .footernav {
@@ -139,6 +138,20 @@ body {
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
+    text-align: center;
+}
+
+.newsitem {
+    text-align: start;
+}
+
+#main p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.worshipitem {
+    text-align: start;
 }
 
 .worship {
@@ -146,6 +159,7 @@ body {
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
+    text-align: center;
 }
 
 .location {
@@ -170,7 +184,7 @@ body {
     }
 
     .nav-links {
-         background-color: #60442f;
+         background-color: #4a352f;
          position: fixed;
          top: 200px;
          top: -100%;
