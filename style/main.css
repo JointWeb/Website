@@ -178,6 +178,24 @@ body {
     margin-bottom: 10px;
 }
 
+/* Contacts Formatting */
+
+.contacts {
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.contacts div {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.contacts h1 {
+    padding-bottom: 25px;
+}
+
 /* Responsive Sizing */
 
 @media screen and (max-width:768px) {
@@ -220,6 +238,10 @@ body {
     }
 
     .news {
+        width: 80%;
+    }
+
+    .contacts {
         width: 80%;
     }
 }
