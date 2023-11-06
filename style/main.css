@@ -196,6 +196,14 @@ body {
     padding-bottom: 25px;
 }
 
+.spacing {
+    margin-bottom: 25px;
+}
+
+.highlight {
+    font-weight: 700;
+}
+
 /* Responsive Sizing */
 
 @media screen and (max-width:768px) {
