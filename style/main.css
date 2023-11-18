@@ -213,6 +213,21 @@ body {
     padding-bottom: 10px;
 }
 
+.policy {
+    margin: 25px;
+    font-size: 20px;
+}
+
+.policy h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.policy ul {
+    padding: 25px;
+}
+
 /* Responsive Sizing */
 
 @media screen and (max-width:768px) {
