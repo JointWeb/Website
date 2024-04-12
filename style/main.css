@@ -178,6 +178,16 @@ body {
     margin-bottom: 10px;
 }
 
+/* Ministry Formatting */
+.communion {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.communion img {
+    width: 50%;
+}
+
 /* Contacts Formatting */
 
 .contacts {
