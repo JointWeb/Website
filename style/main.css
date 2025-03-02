@@ -182,8 +182,10 @@ body {
 
 .communion {
     text-align: center;
+    font-size: 25px;
     border: 1px solid black;
     width: 50%;
+    margin-top: 25px;
 }
 
 .communion img {
