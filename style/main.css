@@ -16,13 +16,13 @@ body {
     background-color: #4f78e7;
     display: inline-block;
     width: 100%;
+    height: 150px;
     text-align: center;
     padding-top: 10px;
 }
 
 #header img {
-   height: 150px;
-   border-radius: 15px;
+   width: 400px; 
 }
 
 /* Navbar Formatting*/
@@ -260,7 +260,7 @@ body {
     .nav-links {
          background-color: #133590;
          position: fixed;
-         top: 200px;
+         top: 150px;
          top: -100%;
          width: 100%;
          height: 50%;
@@ -276,7 +276,7 @@ body {
     }
 
     .nav-links.active {
-         top: 200px;
+         top: 165px;
     }
 
     .worship {
