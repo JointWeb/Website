@@ -28,7 +28,7 @@ body {
 
 /* Navbar Formatting*/
 #navbar {
-    background-color: #133590;
+    background-color: #0e284d;
     color: #fffff5;
 }
 
@@ -264,7 +264,7 @@ body {
     }
 
     .nav-links {
-         background-color: #133590;
+         background-color: #0e284d;
          position: fixed;
          top: 150px;
          top: -100%;
