@@ -250,11 +250,12 @@ body {
     .hamburger {
          position: absolute;
          top: 125px;
-         right: 10px;
+         right: 5px;
     }
 
     #header img {
         width: 300px; 
+        padding-top: 15px;
      }
 
     #navbar ul {
