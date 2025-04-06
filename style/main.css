@@ -22,7 +22,7 @@ body {
 }
 
 #header img {
-   width: 360px; 
+   width: 400px; 
 }
 
 /* Navbar Formatting*/
@@ -251,6 +251,10 @@ body {
          top: 125px;
          right: 10px;
     }
+
+    #header img {
+        width: 300px; 
+     }
 
     #navbar ul {
          display: flex;
