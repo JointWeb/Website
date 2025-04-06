@@ -15,6 +15,8 @@ body {
 #header {
     background-color: #4f78e7;
     display: inline-block;
+    color: #fffff5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     height: 175px;
     text-align: center;
