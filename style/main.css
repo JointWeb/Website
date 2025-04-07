@@ -13,7 +13,7 @@ body {
 
 /* Header Formmating */
 #header {
-    background-color: #4f78e7;
+    background-color: #3559bb;
     display: inline-block;
     color: #fffff5;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -69,12 +69,12 @@ body {
 }
 
 .nav-links li:hover {
-    background-color: #4f78e7;
+    background-color: #3559bb;
     border-radius: 5px;
 }
 
 .active {
-    background-color: #4f78e7;
+    background-color: #3559bb;
     border-radius: 5px;
 }
 
@@ -103,7 +103,7 @@ body {
 /* Footer Formatting */
 
 #footer {
-    background-color: #4f78e7;
+    background-color: #3559bb;
     width: 100%;
     height: 40px;
     display: flex;
@@ -256,7 +256,7 @@ body {
     }
 
     #header {
-        background-color: #4f78e7;
+        background-color: #3559bb;
         display: inline-block;
         color: #fffff5;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
