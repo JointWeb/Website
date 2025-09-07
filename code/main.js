@@ -10,7 +10,7 @@ function setHeader() {
           if (headerIndex >= pageHeaders.length) {
                clearInterval(interval);
           }
-     }, 1500);
+     }, 3000);
 }
 
 setHeader();
