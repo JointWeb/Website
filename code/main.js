@@ -1,4 +1,7 @@
-function setHeader() {
+//Code to run the header
+(function(){
+
+     function setHeader() {
      const pageHeaders = ["Whoever You Are", "Wherever You Are on Life's Journey", "Whatever You Have Done", "You Are Welcome Here"];
      let headerIndex = 0;
      const headerElement = document.getElementById("page-header");
@@ -15,22 +18,36 @@ function setHeader() {
 
 setHeader();
 
+})();
 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-links");
+//Code for the Hamburger Menu
+(function(){
 
-function makeActive () {
-     hamburger.classList.toggle("active");
-     navMenu.classList.toggle("active");
-}
+     const hamburger = document.querySelector(".hamburger");
+     const navMenu = document.querySelector(".nav-links");
 
-hamburger.addEventListener('click', makeActive);
+     function makeActive () {
+          hamburger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+     }
 
-const main = document.querySelector("main");
+     hamburger.addEventListener('click', makeActive);
 
-function removeActive () {
-     hamburger.classList.remove("active");
-     navMenu.classList.remove("active");
-}
+     const main = document.querySelector("main");
 
-main.addEventListener('click', removeActive);
+     function removeActive () {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+     }
+
+     main.addEventListener('click', removeActive);
+
+})();
+
+//Code for the Slide Show
+
+/* (function(){
+
+     
+
+})(); */
