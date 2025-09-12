@@ -46,8 +46,30 @@ setHeader();
 
 //Code for the Slide Show
 
-/* (function(){
+(function(){
 
-     
+     const churchImages = ["./images/church1.jpg", "./images/church2.jpg"];
 
-})(); */
+     let currentImage = 0;
+
+     document.getElementById("next").onclick = nextPhoto;
+
+     document.getElementById("back").onclick = backPhoto;
+
+    function nextPhoto(){
+        currentImage++;
+        if (currentImage > churchImages.length - 1) {
+            currentImage = 0;
+        }
+        document.getElementById("church-images").src = churchImages[currentImage];
+    }
+
+    function backPhoto(){
+        currentImage--;
+        if (currentImage < 0) {
+            currentImage = churchImages.length - 1;
+        }
+        document.getElementById("church-images").src = churchImages[currentImage];
+    }
+
+})();
