@@ -170,6 +170,10 @@ footer a {
     text-align: center;
 }
 
+.slide-show h2 {
+    padding-bottom: 20px;
+}
+
 .slide-show img {
     width: 300px;
 }

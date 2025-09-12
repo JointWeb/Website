@@ -48,7 +48,7 @@ setHeader();
 
 (function(){
 
-     const churchImages = ["./images/church1.jpg", "./images/church2.jpg"];
+     const churchImages = ["./images/church1.jpg", "./images/church2.jpg", "./images/church3.jpg", "./images/church4.jpg"];
 
      let currentImage = 0;
 
