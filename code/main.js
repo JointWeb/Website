@@ -26,7 +26,7 @@
 
 (function(){
 
-     const churchImages = ["./images/church1.jpg", "./images/church2.jpg", "./images/church3.jpg", "./images/church4.jpg", "./images/church5.jpg"];
+     const churchImages = ["./images/church1.jpg", "./images/church2.jpg", "./images/church3.jpg", "./images/church4.jpg", "./images/church5.jpg", "./images/church6.jpg", "./images/church7.jpg", "./images/church8.jpg"];
 
      let currentImage = 0;
 
