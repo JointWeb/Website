@@ -1,4 +1,4 @@
-/*Page Formatting*/
+/*Page Styling*/
 
 * {
     margin: 0;
@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
 }
 
-/* Header Formmating */
+/* Header Sytling */
 #header {
     background-color: rgba(53, 89, 187, .65);
     display: inline-block;
@@ -32,7 +32,7 @@ body {
     font-size: 20px;
 }
 
-/* Navbar Formatting*/
+/* Navbar Styling*/
 #navbar {
     background-color: #0e284d;
     color: #fffff5;
@@ -104,7 +104,7 @@ body {
     transform: translateY(-10px) rotate(-45deg);
 }
 
-/* Footer Formatting */
+/* Footer Styling */
 
 footer {
     background-color: rgba(53, 89, 187, .65);
@@ -125,7 +125,7 @@ footer a {
     color: rgb(0,0,0);
 }
 
-/*New Homepage Formatting */
+/*New Homepage Styling */
 .news-and-events {
     width: 80%;
     margin: 25px auto;
@@ -189,6 +189,40 @@ footer a {
     color: rgb(0,0,0);
 }
 
+/*New Faith Formation Styling*/
+
+.communion {
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid rgb(0,0,0);
+    width: 50%;
+    margin: 25px auto;
+}
+
+.communion img {
+    width: 50%;
+}
+
+.office-hours {
+    width: 50%;
+    margin: 25px auto;
+    border: 1px solid rgb(0,0,0);
+    padding: 5px;
+}
+
+.office-hours h2 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.office-hours div {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.office-hours > p {
+    text-align: justify;
+}
 
 
 /* Main Formatting */
@@ -243,20 +277,6 @@ footer a {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1.5rem;
-}
-
-/* Ministry Formatting */
-
-.communion {
-    text-align: center;
-    font-size: 25px;
-    border: 1px solid black;
-    width: 50%;
-    margin-top: 25px;
-}
-
-.communion img {
-    width: 50%;
 }
 
 /* Contacts Formatting */
@@ -362,6 +382,14 @@ footer a {
          top: 185px;
     }
 
+    .communion {
+        width: 80%;
+    }
+
+    .office-hours {
+        width: 80%
+    }
+
     .worship {
         width: 80%;
     }
@@ -374,8 +402,5 @@ footer a {
         width: 80%;
     }
 
-    .communion {
-        width: 80%;
-    }
 }
 
