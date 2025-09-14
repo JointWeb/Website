@@ -11,6 +11,10 @@ body {
     min-height: 100vh;
 }
 
+main {
+    flex-grow: 1;
+}
+
 /* Header Sytling */
 #header {
     background-color: rgba(53, 89, 187, .65);
@@ -82,7 +86,7 @@ body {
     border-radius: 5px;
 }
 
-/* Hamburger Menu */
+/* Hamburger Menu Sytling*/
 
 .chevron {
     display: none;
@@ -125,12 +129,13 @@ footer a {
     color: rgb(0,0,0);
 }
 
-/*New Homepage Styling */
+/*Homepage Styling */
+
 .news-and-events {
     width: 80%;
     margin: 25px auto;
     border: 2px solid, rgb(0,0,0);
-    box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     padding: 5px 15px;
     font-size: 1.5rem;
 }
@@ -154,7 +159,7 @@ footer a {
     width: 80%;
     margin: 25px auto;
     border: 2px solid, rgb(0,0,0);
-    box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     padding: 5px 15px;
     font-size: 1.5rem; 
 }
@@ -189,14 +194,21 @@ footer a {
     color: rgb(0,0,0);
 }
 
-/*New Faith Formation Styling*/
+.location {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/*Faith Formation Page Styling*/
 
 .communion {
     text-align: center;
     font-size: 25px;
     border: 1px solid rgb(0,0,0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     width: 50%;
     margin: 25px auto;
+    padding: 5px;
 }
 
 .communion img {
@@ -207,6 +219,7 @@ footer a {
     width: 50%;
     margin: 25px auto;
     border: 1px solid rgb(0,0,0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     padding: 5px;
 }
 
@@ -224,109 +237,120 @@ footer a {
     text-align: justify;
 }
 
+/*Ministry Page Styling*/
 
-/* Main Formatting */
-
-#main {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    flex-grow: 1;
-}
-
-.news {
+.confirmation {
     width: 50%;
-    border: 1px solid black;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-   
-}
-
-.newsitem {
-    text-align: start;
-    font-size: 20px;
-
-}
-
-#main p {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.worshipitem {
-    text-align: start;
-    font-size: 20px;
-    text-align: center;
-}
-
-.worship {
-    width: 50%;
-    border: 1px solid black;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-}
-
-.location {
-    width: 90%;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-size: 1.5rem;
+    margin: 25px auto;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
+    padding: 10px;
 }
 
-/* Contacts Formatting */
+.confirmation h3 {
+    text-align: center;
+}
+
+.booklet {
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+
+.booklet img {
+    width: 50%;
+}
+
+
+/*About Page Styling*/
+
+.about {
+    width: 50%;
+    font-size: 1.2rem;
+    margin: 25px auto;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+/*Contact Page Styling*/
 
 .contacts {
-    width: 50%;
-    margin: 5px;
-    padding: 5px;
+    width: 80%;
+    margin: 25px auto;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     text-align: center;
-}
-
-.contacts div {
-    padding: 15px;
-    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 50px;
 }
 
 .contacts h1 {
-    padding-bottom: 25px;
+    font-size: 1.8rem;
+    padding: 50px 0px;
 }
 
-.spacing {
-    margin-bottom: 25px;
+.contacts h2 {
+    font-size: 1.2rem;
+    padding-top: 25px;
 }
 
-.highlight {
-    font-weight: 700;
+.facebook {
+    width: 80%;
+    margin: 25px auto;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
+    padding: 10px;
 }
 
-.contacts ul {
-    list-style-type: none;
+.facebook h2 {
+    text-align: center;
 }
 
-.contacts li {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.facebook ul {
+    list-style-position: inside;
+    list-style-image: url('../images/bible.png');
 }
+
+.facebook li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*Privacy Policy Page Styling*/
 
 .policy {
-    margin: 25px;
-    font-size: 20px;
+    width: 80%;
+    margin: 25px auto;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
+    padding: 10px;
+    padding-bottom: 50px;
 }
 
 .policy h1 {
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.policy p:first-child {
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 10px;
 }
 
 .policy ul {
-    padding: 25px;
+    list-style-position: inside;
 }
 
 /* Responsive Sizing */
@@ -358,6 +382,7 @@ footer a {
     #navbar ul {
          display: flex;
          flex-direction: column;
+         position: absolute;
     }
 
     .nav-links {
@@ -382,23 +407,7 @@ footer a {
          top: 185px;
     }
 
-    .communion {
-        width: 80%;
-    }
-
-    .office-hours {
-        width: 80%
-    }
-
-    .worship {
-        width: 80%;
-    }
-
-    .news {
-        width: 80%;
-    }
-
-    .contacts {
+    .communion, .confirmation, .office-hours, .booklet, .about {
         width: 80%;
     }
 

@@ -1,25 +1,3 @@
-//Code to run the header
-(function(){
-
-     function setHeader() {
-     const pageHeaders = ["Whoever You Are", "Wherever You Are on Life's Journey", "Whatever You Have Done", "You Are Welcome Here"];
-     let headerIndex = 0;
-     const headerElement = document.getElementById("page-header");
-
-     const interval = setInterval(() => {
-          headerElement.textContent = pageHeaders[headerIndex];
-          headerIndex++;
-
-          if (headerIndex >= pageHeaders.length) {
-               clearInterval(interval);
-          }
-     }, 3000);
-}
-
-setHeader();
-
-})();
-
 //Code for the Hamburger Menu
 (function(){
 
@@ -71,5 +49,27 @@ setHeader();
         }
         document.getElementById("church-images").src = churchImages[currentImage];
     }
+
+})();
+
+//Code to run the header
+(function(){
+
+     function setHeader() {
+     const pageHeaders = ["Whoever You Are", "Wherever You Are on Life's Journey", "Whatever You Have Done", "You Are Welcome Here"];
+     let headerIndex = 0;
+     const headerElement = document.getElementById("page-header");
+
+     const interval = setInterval(() => {
+          headerElement.textContent = pageHeaders[headerIndex];
+          headerIndex++;
+
+          if (headerIndex >= pageHeaders.length) {
+               clearInterval(interval);
+          }
+     }, 3000);
+}
+
+setHeader();
 
 })();
