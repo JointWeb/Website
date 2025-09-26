@@ -264,6 +264,14 @@ footer a {
     padding: 10px;
 }
 
+.booklet a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color:rgb(48, 85, 196);
+    font-size: 1.2rem;
+}
+
 .booklet img {
     width: 50%;
 }
