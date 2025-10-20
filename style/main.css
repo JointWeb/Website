@@ -39,7 +39,7 @@ main {
 /* Navbar Styling*/
 #navbar {
     background-color: rgb(51, 51, 51);
-    color: #fffff5;
+    color: rgp(255,255,255);
 }
 
 #navbar ul {
