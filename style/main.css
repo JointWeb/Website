@@ -17,9 +17,8 @@ main {
 
 /* Header Sytling */
 #header {
-    background-color: rgba(53, 89, 187, .65);
+    background-color: rgb(185, 197, 231);
     display: inline-block;
-    color: rgb(255,255,255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     height: 175px;
@@ -38,7 +37,7 @@ main {
 
 /* Navbar Styling*/
 #navbar {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(185, 197, 231);
     color: rgp(255,255,255);
 }
 
@@ -57,7 +56,8 @@ main {
 }
 
 #navbar a {
-    color: rgb(255,255,255);
+    color: rgb(0,0,0);
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -76,21 +76,22 @@ main {
     text-align: center;
 }
 
+.nav-links li {
+    border: 1px solid rgb(51,51,51);
+    border-radius: 5px;
+}
+
 .nav-links li:hover {
-    background-color: rgba(124, 147, 211, .99);
+    background-color: rgb(255,255,255);
     border: 1px solid rgb(51, 51, 51);
     cursor: pointer;
     border-radius: 5px;
 }
 
 .active {
-    background-color: rgba(124, 147, 211, .99);
+    background-color: rgb(255,255,255);
     border: 1px solid rgb(51, 51, 51);
     border-radius: 5px;
-}
-
-#navbar .active a {
-    color:rgb(0,0,0);
 }
 
 /* Hamburger Menu Sytling*/
@@ -118,7 +119,7 @@ main {
 /* Footer Styling */
 
 footer {
-    background-color: rgba(53, 89, 187, .65);
+    background-color: rgb(185, 197, 231);
     width: 100%;
     height: 200px;
     display: flex;
@@ -195,7 +196,7 @@ footer a {
     width: 100px;
     padding: 10px;
     border: 1px solid rgb(0,0,0);
-    background-color: rgba(53, 89, 187, .65);
+    background-color: rgb(185, 197, 231);
     text-decoration: none;
     font-size: 1.2rem;
     color: rgb(0,0,0);
@@ -377,9 +378,7 @@ footer a {
     }
 
     #header {
-        background-color: rgba(53, 89, 187, .65);
         display: inline-block;
-        color: #fffff5;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         width: 100%;
         height: 175px;
@@ -399,7 +398,7 @@ footer a {
     }
 
     .nav-links {
-         background-color: rgb(51, 51, 51);
+        background-color: rgb(185, 197, 231);
          position: fixed;
          top: 175px;
          top: -100%;
