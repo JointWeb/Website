@@ -378,7 +378,7 @@ footer a {
     .nav-links {
         background-color: rgb(185, 197, 231);
          position: fixed;
-         top: -100%;
+         top: -200%;
          width: 100%;
          height: 350px;
          align-items: center;
@@ -391,11 +391,6 @@ footer a {
 
     .nav-links.active {
          top: 196px;
-    }
-   
-
-    .communion, .confirmation, .office-hours, .booklet, .about {
-        width: 80%;
     }
 
 }
