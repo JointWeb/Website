@@ -38,7 +38,7 @@ main {
 /* Navbar Styling takes up 51px height*/
 #navbar {
     background: #9cc9e6;
-    border-bottom: 1px solid #000000;
+    padding-bottom: 5px;
 }
 
 #navbar ul {
