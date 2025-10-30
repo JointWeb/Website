@@ -11,13 +11,13 @@ body {
 
 main {
     flex-grow: 1;
-    background: rgb(231,231,231);
+    background: #F1F1F1;
 }
 
 
 /* Header Sytling takes 185px height */
 #header {
-    background-color: rgb(146, 165, 219);
+    background: #9cc9e6;
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
@@ -37,8 +37,8 @@ main {
 
 /* Navbar Styling takes up 51px height*/
 #navbar {
-    background-color: rgb(146, 165, 219);
-    border-bottom: 1px solid rgb(0,0,0);
+    background: #9cc9e6;
+    border-bottom: 1px solid #000000;
 }
 
 #navbar ul {
@@ -50,14 +50,12 @@ main {
 
 #navbar a {
     display: inline-block;
-    color: rgb(0,0,0);
+    color: #000000;
     font-weight: 700;
     font-size: 20px;
     padding: 8px 0px;
     width: 150px;
     text-decoration: none;
-    border: 1px solid rgb(51,51,51);
-    border-radius: 5px;
 }
 
 .nav-links {
@@ -67,14 +65,13 @@ main {
 
 
 #navbar a:hover {
-    background-color: rgb(231,231,231);
-    border: 1px solid rgb(51, 51, 51);
+    background-color: #F1F1F1;
     cursor: pointer;
     border-radius: 5px;
 }
 
 .active {
-    background-color: rgb(231,231,231);
+    background-color: #F1F1F1;
     border-radius: 5px;
 }
 
@@ -82,7 +79,7 @@ main {
 
 .chevron {
     display: none;
-    background-color: rgb(0,0,0);
+    background-color: #000000;
     width: 30px;
     height: 8px;
     margin: 2px;
@@ -103,7 +100,7 @@ main {
 /* Footer Styling */
 
 footer {
-    background-color: rgb(146, 165, 219);
+    background: #9cc9e6;
     width: 100%;
     height: 175px;
     display: flex;
@@ -118,16 +115,16 @@ footer ul {
 
 footer a {
     text-decoration: none;
-    color: rgb(0,0,0);
+    color: #000000;
 }
 
 /*Homepage Styling */
 
 .news-and-events {
-    background: rgb(255,255,255);
+    background: #FFFFFF;
     width: 80%;
     margin: 25px auto;
-    border: 1px solid, rgb(0,0,0);
+    border: 1px solid, #000000;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     padding: 5px 15px;
     font-size: 1.5rem;
@@ -149,10 +146,10 @@ footer a {
 }
 
 .services {
-    background: rgb(255,255,255);
+    background: #FFFFFF;
     width: 80%;
     margin: 25px auto;
-    border: 1px solid, rgb(0,0,0);
+    border: 1px solid, #000000;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     padding: 5px 15px;
     font-size: 1.5rem; 
@@ -181,11 +178,11 @@ footer a {
     display: inline-block;
     width: 100px;
     padding: 10px;
-    border: 1px solid rgb(0,0,0);
-    background-color: rgb(146, 165, 219);
+    border: 1px solid #000000;
+    background: #9cc9e6;
     text-decoration: none;
     font-size: 1.2rem;
-    color: rgb(0,0,0);
+    color: #000000;
 }
 
 .location {
@@ -197,9 +194,9 @@ footer a {
 /*Faith Formation Page Styling*/
 
 .communion {
-    background: rgb(255,255,255);
+    background: #FFFFFF;
     text-align: center;
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid #000000;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     width: 80%;
     margin: 25px auto;
@@ -211,10 +208,10 @@ footer a {
 }
 
 .office-hours {
-    background: rgb(255,255,255);
+    background: #FFFFFF;
     width: 80%;
     margin: 25px auto;
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid #000000;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     padding: 5px;
 }
@@ -232,10 +229,10 @@ footer a {
 /*Ministry Page Styling*/
 
 .confirmation {
-    background: rgb(255,255,255);
+    background: #FFFFFF;
     width: 80%;
     margin: 25px auto;
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid #000000;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     padding: 10px;
 }
@@ -249,11 +246,11 @@ footer a {
 }
 
 .booklet {
-    background: rgb(255,255,255);
+    background: #FFFFFF;
     text-align: center;
     width: 80%;
     margin: 50px auto;
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid #000000;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     padding: 10px;
 }
@@ -274,11 +271,11 @@ footer a {
 /*About Page Styling*/
 
 .about {
-    background: rgb(255,255,255);
+    background: #FFFFFF;
     width: 80%;
     font-size: 1.2rem;
     margin: 25px auto;
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid #000000;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     padding: 10px;
 }
@@ -290,10 +287,10 @@ footer a {
 /*Contact Page Styling*/
 
 .contacts {
-    background: rgb(255,255,255);
+    background: #FFFFFF;
     width: 80%;
     margin: 25px auto;
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid #000000;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     text-align: center;
     padding: 10px;
@@ -311,10 +308,10 @@ footer a {
 }
 
 .facebook {
-    background: rgb(255,255,255);
+    background: #FFFFFF;
     width: 80%;
     margin: 25px auto;
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid #000000;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     padding: 10px;
 }
@@ -337,10 +334,10 @@ footer a {
 /*Privacy Policy Page Styling*/
 
 .policy {
-    background: rgb(255,255,255);
+    background: #FFFFFF;
     width: 80%;
     margin: 25px auto;
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid #000000;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
     padding: 10px;
     padding-bottom: 50px;
@@ -385,7 +382,7 @@ footer a {
          }
 
     .nav-links {
-        background-color: rgb(146, 165, 219);
+        background: #9cc9e6;
          position: fixed;
          top: -200%;
          width: 100%;
