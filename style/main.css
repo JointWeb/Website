@@ -136,7 +136,7 @@ footer a {
 }
 
 .special-events img {
-    max-width: 75%;
+    max-width: 50%;
 }
 
 
@@ -422,6 +422,10 @@ footer a {
     .nav-links.active {
          top: 186px;
     }
+
+    .special-events img {
+    max-width: 75%;
+}
 
 }
 
