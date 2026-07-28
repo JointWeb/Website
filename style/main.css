@@ -342,6 +342,18 @@ footer a {
     padding-top: 25px;
 }
 
+.cemetery {
+    margin: 25px 0px;
+}
+
+.cemetery p {
+    text-align: left;
+}
+
+.cemetery h3 {
+    margin: 15px 0px;
+}
+
 .facebook {
     background: #FFFFFF;
     width: 80%;
